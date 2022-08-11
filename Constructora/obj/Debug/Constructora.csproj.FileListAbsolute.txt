@@ -1,0 +1,2 @@
+C:\Users\erick\OneDrive\Escritorio\Constructora\Constructora\obj\Debug\Constructora.csproj.AssemblyReference.cache
+C:\Users\erick\OneDrive\Escritorio\Constructora\Constructora\obj\Debug\Constructora.csproj.CoreCompileInputs.cache

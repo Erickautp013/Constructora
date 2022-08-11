@@ -1,0 +1,6 @@
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\Accesodatosconstructora\bin\Debug\Accesodatosconstructora.dll
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\Accesodatosconstructora\bin\Debug\Accesodatosconstructora.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\Accesodatosconstructora\obj\Debug\Accesodatosconstructora.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\Accesodatosconstructora\obj\Debug\Accesodatosconstructora.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\Accesodatosconstructora\obj\Debug\Accesodatosconstructora.dll
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\Accesodatosconstructora\obj\Debug\Accesodatosconstructora.pdb

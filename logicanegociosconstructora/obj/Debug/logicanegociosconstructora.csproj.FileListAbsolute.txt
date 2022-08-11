@@ -1,0 +1,11 @@
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\bin\Debug\logicanegociosconstructora.dll
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\bin\Debug\logicanegociosconstructora.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\bin\Debug\Accesodatosconstructora.dll
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\bin\Debug\Entidadesconstructora.dll
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\bin\Debug\Accesodatosconstructora.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\bin\Debug\Entidadesconstructora.pdb
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\obj\Debug\logicanegociosconstructora.csproj.AssemblyReference.cache
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\obj\Debug\logicanegociosconstructora.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\obj\Debug\logicanegociosconstructora.csproj.CopyComplete
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\obj\Debug\logicanegociosconstructora.dll
+C:\Users\Lenovo_AIO_11\Desktop\Constructora\logicanegociosconstructora\obj\Debug\logicanegociosconstructora.pdb
