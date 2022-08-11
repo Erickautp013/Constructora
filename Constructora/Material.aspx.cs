@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Configuration;
 using logicanegociosconstructora;
-using 
+
 
 namespace Constructora
 {
@@ -31,6 +31,15 @@ namespace Constructora
             }
 
             
+        }
+        public void TipoMaterial()
+        {
+            string m = "";
+            Session["tipo"] = objBL.obtenMaterial(ref m);
+            GridView1.DataSource = Session["tipo"];
+            GridView1.DataBind();
+
+
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
@@ -61,6 +70,11 @@ namespace Constructora
             TextBox5.Text = m;
             md = objBL.MiMessageBox("CONSULTA CORRECTA", m, 2);
             Page.ClientScript.RegisterStartupScript(this.GetType(), "etiqueta" + 1, "" + md + "", true);
+        }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
