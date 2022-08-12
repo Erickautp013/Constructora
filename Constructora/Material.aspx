@@ -4,7 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.min.js"></script>
+    <script type="text/javascript">
+    function Mensaje(t,m,tipo)
+    {
+            Swal.fire(
+                t, m, tipo
+            )
+    }
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -38,7 +49,7 @@
                  <asp:Label ID="Label5" runat="server" Text="Selecciona el tipo de material:"></asp:Label>
         </p>
              <p>
-                 <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4">
+                 <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                      <Columns>
                          <asp:CommandField ShowSelectButton="True" />
                      </Columns>

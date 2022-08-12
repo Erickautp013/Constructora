@@ -42,14 +42,14 @@ namespace logicanegociosconstructora
         }
 
         //Insertar, mostrar y atualiza material
-        public Boolean InsertarMaterial(int ID_Material, string Descripcion_Mat, string Marca, string Presentacion, int ID_Tipo, ref string m)
+        public Boolean InsertarMaterial(string Descripcion_Mat, string Marca, string Presentacion, int ID_Tipo, ref string m)
         {
-            string sentencia = "insert into Material(ID_Material,Descripcion_Mat,Marca,Presentacion,ID_Tipo) " +
+            string sentencia = "insert into Material(Descripcion_Mat,Marca,Presentacion,ID_Tipo) " +
                 "values (@ID_Material,@Descripcion_Mat,@Marca,@Presentacion,@ID_Tipo);";
             SqlParameter[] coleccion = new SqlParameter[]
             {
 
-                new SqlParameter("ID_Material",SqlDbType.Int),
+                
                 new SqlParameter("Descripcion_Mat",SqlDbType.VarChar,60),
                 new SqlParameter("Marca",SqlDbType.VarChar,40),
                 new SqlParameter("Presentacion",SqlDbType.VarChar,60),
@@ -57,11 +57,11 @@ namespace logicanegociosconstructora
 
 
             };
-            coleccion[0].Value = ID_Material;
-            coleccion[1].Value = Descripcion_Mat;
-            coleccion[2].Value = Marca;
-            coleccion[3].Value = Presentacion;
-            coleccion[4].Value = ID_Tipo;
+           
+            coleccion[0].Value = Descripcion_Mat;
+            coleccion[1].Value = Marca;
+            coleccion[2].Value = Presentacion;
+            coleccion[3].Value = ID_Tipo;
 
             Boolean salida = false;
             operacion.ModificarBDMasseguro(sentencia, operacion.Abrirconexion(ref m), ref m, coleccion);
@@ -102,14 +102,14 @@ namespace logicanegociosconstructora
         }
 
         //Insertar,mostrar y actualizar Obra
-        public Boolean InsertarObra(int ID_Obra, string Nom_Obra, string Direccion, DateTime Fecha_Inicio, DateTime Fecha_Termino, int ID_Dueno, int ID_Encargado, ref string m)
+        public Boolean InsertarObra( string Nom_Obra, string Direccion, DateTime Fecha_Inicio, DateTime Fecha_Termino, int ID_Dueno, int ID_Encargado, ref string m)
         {
-            string sentencia = "insert into Obra(ID_Obra,Nom_Obra,Direccion,Fecha_Inicio,Fecha_Termino, ID_Dueno, ID_Encargado) " +
-                "values (@ID_Obra,@Nom_Obra,@Direccion,@Fecha_Inicio,@Fecha_Termino, @ID_Dueno, @ID_Encargado);";
+            string sentencia = "insert into Obra(Nom_Obra,Direccion,Fecha_Inicio,Fecha_Termino, ID_Dueno, ID_Encargado) " +
+                "values (@Nom_Obra,@Direccion,@Fecha_Inicio,@Fecha_Termino, @ID_Dueno, @ID_Encargado);";
             SqlParameter[] coleccion = new SqlParameter[]
             {
 
-                new SqlParameter("ID_Obra",SqlDbType.Int),
+               
                 new SqlParameter("Nom_Obra",SqlDbType.VarChar,40),
                 new SqlParameter("Direccion",SqlDbType.VarChar,60),
                 new SqlParameter("Fecha_Inicio",SqlDbType.DateTime),
@@ -119,13 +119,13 @@ namespace logicanegociosconstructora
 
 
             };
-            coleccion[0].Value = ID_Obra;
-            coleccion[1].Value = Nom_Obra;
-            coleccion[2].Value = Direccion;
-            coleccion[3].Value = Fecha_Inicio;
-            coleccion[4].Value = Fecha_Termino;
-            coleccion[5].Value = ID_Dueno;
-            coleccion[6].Value = ID_Encargado;
+           
+            coleccion[0].Value = Nom_Obra;
+            coleccion[1].Value = Direccion;
+            coleccion[2].Value = Fecha_Inicio;
+            coleccion[3].Value = Fecha_Termino;
+            coleccion[4].Value = ID_Dueno;
+            coleccion[5].Value = ID_Encargado;
 
 
             Boolean salida = false;

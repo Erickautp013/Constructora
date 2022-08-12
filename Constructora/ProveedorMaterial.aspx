@@ -46,7 +46,7 @@
                  <asp:Label ID="Label5" runat="server" Text="Selecciona la obra:"></asp:Label>
         </p>
              <p>
-                 <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4">
+                 <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                      <Columns>
                          <asp:CommandField ShowSelectButton="True" />
                      </Columns>
